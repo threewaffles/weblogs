@@ -9,8 +9,8 @@ class weblogs():#znc.Module):
 	#module_types = [znc.CModInfo.GlobalModule]
     description = "Displays znc server logs via the web admin interface."
 
-				##/home/arrow/.znc.moddata/log/arrow/snoonet/#channel/file.log
-				##/home/arrow/.znc.moddata/log/arrow/ - would be the base dir, anything above that would be denied.
+				##/home/arrow/.znc/moddata/log/arrow/snoonet/#channel/file.log
+				##/home/arrow/.znc/moddata/log/arrow/ - would be the base dir, anything above that would be denied.
 	baselogdir = "C:\\Users\\mameman\\AppData\\Roaming\\HexChat\\logs"
 	accountname = "Roaming"
 
